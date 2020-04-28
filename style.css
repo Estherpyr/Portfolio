@@ -1,0 +1,83 @@
+html,
+body{
+  color:white;
+}
+
+*, *:before, *:after {
+  box-sizing:inherit;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity:0;
+  }
+  to{
+    opacity:1;
+  }
+}
+
+.name1{
+  position:absolute;
+  top:80px;
+  left:700px;
+  color: white;
+  /* color:#7ea4d9; */
+  font-size: 50px;
+  font-family: 'Rubik', sans-serif;
+  animation: fadeIn 2s;
+}
+
+.name2{
+  position:absolute;
+  top:140px;
+  left:700px;
+  color:white;
+  font-size:50px;
+  font-family: 'Rubik', sans-serif;
+  animation: fadeIn 2s;
+}
+
+.photos{
+  color:white;
+  font-size: 25px;
+  font-family: 'Rubik', sans-serif;
+  text-align: right;
+  margin-top: 540px;
+  margin-right: 30px;
+}
+
+.videos{
+  color:white;
+  font-size:25px;
+  font-family: 'Rubik', sans-serif;
+  text-align: right;
+  margin-right: 30px;
+}
+
+.designs{
+  color:white;
+  font-size: 25px;
+  font-family: 'Rubik', sans-serif;
+  text-align: right;
+  margin-right: 30px;
+}
+
+.me{
+  color:white;
+  font-size: 25px;
+  font-family: 'Rubik', sans-serif;
+  text-align: right;
+  margin-right: 30px;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+  margin-right: 40px;
+}
+
+a:visited, a:visited{
+  color:white;
+}
