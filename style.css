@@ -1,4 +1,9 @@
 html,
+
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   color:white;
 }
@@ -15,6 +20,8 @@ body{
     opacity:1;
   }
 }
+
+
 
 .name1{
   position:absolute;
@@ -89,7 +96,7 @@ h1{color:white; text-align: center; margin-top: 140px; margin-left: 100px;}
 
 
 /* photos page there */
-#sunset{
+.sunset{
   width:670px;
   height:370px;
   margin-left: 100px;
@@ -98,7 +105,7 @@ h1{color:white; text-align: center; margin-top: 140px; margin-left: 100px;}
   /* border-radius: 8px; */
 }
 
-#sunset:hover{
+.sunset:hover{
   filter:grayscale(40%);
 }
 
@@ -128,7 +135,7 @@ h1{color:white; text-align: center; margin-top: 140px; margin-left: 100px;}
   font-family: 'Rubik', sans-serif;
 }
 
-#flowers{
+.flowers{
   width:670px;
   height:400px;
   margin-left: 700px;
@@ -156,9 +163,11 @@ h1{color:white; text-align: center; margin-top: 140px; margin-left: 100px;}
 }
 
 
-#flowers:hover{
+.flowers:hover{
   filter:grayscale(40%);
 }
+
+
 
 /* video page here */
 
